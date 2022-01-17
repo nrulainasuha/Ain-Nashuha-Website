@@ -1,0 +1,68 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+      
+
+    * {
+        box-sizing: border-box;
+      }
+     
+      img {
+        border: 5px solid rgb(255, 255, 255);
+        }
+     
+      body {
+        background-color: #f0d6d6;
+        padding: 20px;
+        font-family: Arial;
+        background-image: url("image/pokok\ kelapa.jpg");
+        background-size: cover;
+    }
+      
+     /* Center website */ 
+      .main {
+        max-width: 1000px;
+        margin: auto;
+      }
+      
+      h1 {
+        font-size: 40px;
+        word-break: break-all;
+        font-family: cursive;
+        color: rgb(0, 0, 0);
+        text-shadow: -3px 0 rgb(255, 255, 255), 0 3px rgb(255, 255, 255), 3px 0 rgb(255, 255, 255), 0 -3px rgb(255, 255, 255);
+       
+      }
+      
+      .row {
+        margin: 10px -16px;
+      }
+      
+     /* Add padding BETWEEN each column */
+      .row,
+      .row > .column {
+        padding: 10px;
+      }
+      
+      /* Create four equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 25%;
+      }
+      
+     /* Clear floats after rows */ 
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+     /* Content */
+      .content {
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+      }
+      
+      

@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+
+body {
+ background-image: url("image/awan2.jpg");
+ background-size:cover;
+ font-family: cursive;
+ font-size: 20px;
+}
+
+
+h1 {
+color:rgb(7, 7, 7);
+text-align: center;
+color: rgb(196, 50, 81);
+text-shadow: -3px 0 rgb(255, 255, 255), 0 3px rgb(255, 255, 255), 3px 0 rgb(255, 255, 255), 0 -3px rgb(255, 255, 255);
+}
+
+
+p{
+text-align: center;
+
+}
+
+img{
+width:200px;
+height:200px;
+align-items: center;
+}
+
+center.image{
+width: 280px;
+height:300px;
+
+}
+
+a:link, a:visited 
+{
+background-color: rgb(127, 208, 233);
+color:#080808;
+font-family: cursive;
+font-size: 20px;
+padding: 20px 25px;
+text-align:center;
+text-decoration-style: solid;
+display: ruby-text-container;
+
+}
+
+a:hover, a:active {
+background-color:rgb(7, 128, 161);
+
+}
+
+img:hover {
+    -webkit-transform: scaleX(-1);
+     transform: scaleX(-1);
+}
+
+
+ .footer {
+    padding: 10px;
+    text-align: center;
+    background:rgb(250, 161, 161);
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-family: Lucida Sans;
+    font-size: 70%;
+    }
+
+.fa {
+    padding: 10px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+   
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
